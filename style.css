@@ -1,0 +1,48 @@
+body{background-color: #fff;}
+
+/*見出し*/
+h1{font-size: 50px;}
+h1 a:link,h1 a:visited,h1 a:hover,h1 a:active{color: #63302d;}
+
+/*横メニュー*/
+ul{
+    list-style-type: none;
+    margin: 1%;
+    padding: 1%;
+    width: 10%;
+    background-color: #f7edeb;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+li{
+    font-size: 20px;
+  }
+li  a:link { color: #9e7e7c; }
+li  a:visited { color: #9e7e7c; }
+li  a:hover { color: #9e7e7c; 
+  position: relative;
+  bottom: 1px;
+  right: 1px;
+  text-decoration: none;
+  background-color: #fff;}
+li  a:active { color: #9e7e7c; }
+li a {text-decoration: none;display: block;}
+
+/*本文*/
+div{width: 60%;height: 100%;
+  color: #63302d;
+  line-height: 2;
+}
+
+
+/*全体リンク*/
+a:link { color: #96514d; }
+a:visited { color: #f0c648; }
+a:hover { color: #96514d; 
+position: relative;
+bottom: 1px;
+right: 1px;
+text-decoration: none;}
+a:active { color: #96514d; }
+a {text-decoration: none;}
